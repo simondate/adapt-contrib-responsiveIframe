@@ -18,6 +18,10 @@ define(function(require) {
             this.listenTo(Adapt, 'device:changed', this.resizeControl);
 
             this.checkIfResetOnRevisit();
+
+            // Set the title of the IFRAME
+            var iframeTitle = this.model.get('displayTitle') || this.model.get('title');
+            this.model.set("iframeTitle", iframeTitle);
         },
 
         checkIfResetOnRevisit: function() {
