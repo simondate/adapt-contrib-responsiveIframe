@@ -26,7 +26,7 @@
       "default": "",
       "inputType": "Text",
       "validators": ["required"],
-      "help": "The URL which will be rendered inside the <iframe>"
+      "help": "The URL which will be rendered inside the IFRAME"
     },
     "_scrolling": {
       "type": "string",
@@ -36,12 +36,12 @@
       "enum": ["auto", "yes", "no"],
       "inputType": {"type": "Select", "options": ["auto", "yes", "no"]},
       "validators": ["required"],
-      "help": "The scrolling attribute specifies whether or not to display scrollbars in an <iframe>"
+      "help": "The scrolling attribute specifies whether or not to display scrollbars in an IFRAME"
     },
     "_width": {
       "type": "object",
       "required": true,
-      "title": "Width of the <iframe> in specified breakpoints",
+      "title": "Width of the IFRAME in specified breakpoints",
       "properties": {
         "_small": {
           "type": "number",
@@ -72,7 +72,7 @@
     "_height": {
       "type": "object",
       "required": true,
-      "title": "Height of the <iframe> in specified breakpoints",
+      "title": "Height of the IFRAME in specified breakpoints",
       "properties": {
         "_small": {
           "type": "number",
