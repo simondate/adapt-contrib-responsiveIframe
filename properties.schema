@@ -22,11 +22,9 @@
     "_source": {
       "type": "string",
       "required": true,
-      "title": "URL",
-      "default": "",
-      inputType": "Asset:other",
-      "validators": ["required"],
-      "help": "The URL which will be rendered inside the IFRAME"
+      "title": "Link",
+      "inputType": "Asset:other",
+      "validators": ["required"]
     },
     "_scrolling": {
       "type": "string",
