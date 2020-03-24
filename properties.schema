@@ -21,9 +21,10 @@
     },
     "_source": {
       "type": "string",
-      "required": true,
-      "title": "Link",
-      "inputType": "Text",
+      "required": false,
+      "default": "",
+      "title": "Caption File",
+      "inputType": "Asset:other",
       "validators": ["required"]
     },
     "_scrolling": {
