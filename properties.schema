@@ -23,7 +23,7 @@
       "type": "string",
       "required": true,
       "title": "Link",
-      "inputType": "Asset:other",
+      "inputType": "Text",
       "validators": ["required"]
     },
     "_scrolling": {
