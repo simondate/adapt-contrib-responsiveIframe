@@ -37,37 +37,6 @@
       "validators": ["required"],
       "help": "The scrolling attribute specifies whether or not to display scrollbars in an IFRAME"
     },
-    "_width": {
-      "type": "object",
-      "required": true,
-      "title": "Width of the IFRAME in specified breakpoints",
-      "properties": {
-        "_small": {
-          "type": "number",
-          "required": true,
-          "title": "Small width",
-          "inputType": "Number",
-          "validators": ["number", "required"],
-          "help": "Width with a small viewport"
-        },
-        "_medium": {
-          "type": "number",
-          "required": true,
-          "title": "Medium width",
-          "inputType": "Number",
-          "validators": ["number", "required"],
-          "help": "Width with a medium viewport"
-        },
-        "_large": {
-          "type": "number",
-          "required": true,
-          "title": "Large width",
-          "inputType": "Number",
-          "validators": ["number", "required"],
-          "help": "Width with a large viewport"
-        }
-      }
-    },
     "_height": {
       "type": "object",
       "required": true,
