@@ -1,10 +1,11 @@
 {
   "name": "adapt-contrib-responsiveIframe",
-  "version": "1.1.0",
-  "framework": ">=2",
+  "version": "1.1.1",
+  "framework": ">=5",
   "homepage": "https://github.com/LearningPool/adapt-contrib-responsiveIframe",
   "authors": [
-    "Kevin Corry <kevinc@learningpool.com>"
+    "Kevin Corry <kevinc@learningpool.com>",
+    "Simon Date <simon@adaptfreelancer.com>"
   ],
   "description": "Allows embedded content inside an iframe tag that will respond to theme breakpoints.",
   "main": "/js/adapt-contrib-responsiveIframe.js",
