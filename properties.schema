@@ -65,6 +65,14 @@
           "inputType": "Number",
           "validators": ["number", "required"],
           "help": "Height with a large viewport"
+        },
+        "_xlarge": {
+          "type": "number",
+          "required": true,
+          "title": "Extra large height",
+          "inputType": "Number",
+          "validators": ["number", "required"],
+          "help": "Height with a extra large viewport"
         }
       }
     }
